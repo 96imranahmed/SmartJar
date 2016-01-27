@@ -1,0 +1,27 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.col-value {
+  text-align: center;
+}
+
+.label-value {
+  font-size: 150%;
+}
+
+.jumbotron {
+  padding: 10px 0;
+}
+
+.row {
+  min-height: 270px;
+}
+
+.panel-heading h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
