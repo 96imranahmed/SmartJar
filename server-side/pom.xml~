@@ -5,13 +5,13 @@
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <groupId>uk.co.inetria.pi</groupId>
-    <artifactId>raspberrypi-portal</artifactId>
+    <groupId>uk.co.hack.cam</groupId>
+    <artifactId>smart-container</artifactId>
 
     <properties>
-        <app.id>raspberrypi-dash</app.id>
+        <app.id>smart-container-1203</app.id>
         <app.version>v1</app.version>
-        <appengine.version>1.9.30</appengine.version>
+        <appengine.version>1.9.31</appengine.version>
         <objectify.version>5.1.9</objectify.version>
         <gcloud.plugin.version>2.0.9.74.v20150814</gcloud.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -87,6 +87,7 @@
     <build>
         <!-- for hot reload of the web application-->
         <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
+        <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -171,6 +172,7 @@
               </configuration>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>
 
 </project>

@@ -33,6 +33,14 @@ public class SensorData implements Serializable {
 	
 	private Double value;
 	
+	private String prodName;
+	
+	private Double price;
+	
+	private String prodImageURI;
+	
+	private String productEAN;
+	
 	@Index
 	private String channel;
 	
@@ -105,6 +113,46 @@ public class SensorData implements Serializable {
 
 	public void setChannel(String channel) {
 		this.channel = channel;
+	}
+
+
+	public String getProdName() {
+		return prodName;
+	}
+
+
+	public void setProdName(String prodName) {
+		this.prodName = prodName;
+	}
+
+
+	public Double getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+
+	public String getProdImageURI() {
+		return prodImageURI;
+	}
+
+
+	public void setProdImageURI(String prodImageURI) {
+		this.prodImageURI = prodImageURI;
+	}
+
+
+	public String getProductEAN() {
+		return productEAN;
+	}
+
+
+	public void setProductEAN(String productEAN) {
+		this.productEAN = productEAN;
 	}
 
 }
