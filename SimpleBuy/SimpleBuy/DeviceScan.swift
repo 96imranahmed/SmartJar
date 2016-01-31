@@ -219,7 +219,9 @@ class DeviceScan: UIViewController, BLEDelegate, UITableViewDelegate, UITableVie
         var output: Int = 0;
         print(data?.length);
         data?.getBytes(&output, length: (data?.length)!);
-        print(output);
+        if let index = Globals.registered_devices.indexOf({$0.UUID == Globals.cur_devices[0].identifier.UUIDString}) {
+            Globals.registered_devices[index].mass = Double(output);
+        }
     }
     func bleDidDiscoverNewDevice(UUID: String) {
         if (Globals.registered_devices.indexOf({$0.UUID == UUID}) == nil) {

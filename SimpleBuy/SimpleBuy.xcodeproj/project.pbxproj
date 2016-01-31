@@ -35,11 +35,11 @@
 		D80774A61C5D234E0059C8C9 /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774851C5D234E0059C8C9 /* GTLJSONParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D80774A71C5D234E0059C8C9 /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774881C5D234E0059C8C9 /* GTLUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D80774B71C5D52730059C8C9 /* unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = D80774B61C5D52730059C8C9 /* unknown.png */; };
-		D80774C41C5DFF420059C8C9 /* GTLQuerySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774B91C5DFF420059C8C9 /* GTLQuerySensor.m */; };
-		D80774C61C5DFF420059C8C9 /* GTLSensorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774BD1C5DFF420059C8C9 /* GTLSensorConstants.m */; };
-		D80774C71C5DFF420059C8C9 /* GTLSensorData.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774BF1C5DFF420059C8C9 /* GTLSensorData.m */; };
-		D80774C81C5DFF420059C8C9 /* GTLSensorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774C11C5DFF420059C8C9 /* GTLSensorItem.m */; };
-		D80774C91C5DFF420059C8C9 /* GTLServiceSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774C31C5DFF420059C8C9 /* GTLServiceSensor.m */; };
+		D80774D61C5E21F40059C8C9 /* GTLQuerySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774CB1C5E21F40059C8C9 /* GTLQuerySensor.m */; };
+		D80774D81C5E21F40059C8C9 /* GTLSensorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774CF1C5E21F40059C8C9 /* GTLSensorConstants.m */; };
+		D80774D91C5E21F40059C8C9 /* GTLSensorData.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774D11C5E21F40059C8C9 /* GTLSensorData.m */; };
+		D80774DA1C5E21F40059C8C9 /* GTLSensorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774D31C5E21F40059C8C9 /* GTLSensorItem.m */; };
+		D80774DB1C5E21F40059C8C9 /* GTLServiceSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = D80774D51C5E21F40059C8C9 /* GTLServiceSensor.m */; };
 		D87962E41C40A14500E60AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87962E31C40A14500E60AF7 /* AppDelegate.swift */; };
 		D87962E61C40A14500E60AF7 /* DeviceScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87962E51C40A14500E60AF7 /* DeviceScan.swift */; };
 		D87962E91C40A14500E60AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87962E71C40A14500E60AF7 /* Main.storyboard */; };
@@ -134,17 +134,17 @@
 		D80774871C5D234E0059C8C9 /* GTLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUtilities.h; sourceTree = "<group>"; };
 		D80774881C5D234E0059C8C9 /* GTLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUtilities.m; sourceTree = "<group>"; };
 		D80774B61C5D52730059C8C9 /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown.png; sourceTree = "<group>"; };
-		D80774B81C5DFF420059C8C9 /* GTLQuerySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuerySensor.h; sourceTree = "<group>"; };
-		D80774B91C5DFF420059C8C9 /* GTLQuerySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuerySensor.m; sourceTree = "<group>"; };
-		D80774BB1C5DFF420059C8C9 /* GTLSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensor.h; sourceTree = "<group>"; };
-		D80774BC1C5DFF420059C8C9 /* GTLSensorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensorConstants.h; sourceTree = "<group>"; };
-		D80774BD1C5DFF420059C8C9 /* GTLSensorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSensorConstants.m; sourceTree = "<group>"; };
-		D80774BE1C5DFF420059C8C9 /* GTLSensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensorData.h; sourceTree = "<group>"; };
-		D80774BF1C5DFF420059C8C9 /* GTLSensorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSensorData.m; sourceTree = "<group>"; };
-		D80774C01C5DFF420059C8C9 /* GTLSensorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensorItem.h; sourceTree = "<group>"; };
-		D80774C11C5DFF420059C8C9 /* GTLSensorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSensorItem.m; sourceTree = "<group>"; };
-		D80774C21C5DFF420059C8C9 /* GTLServiceSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceSensor.h; sourceTree = "<group>"; };
-		D80774C31C5DFF420059C8C9 /* GTLServiceSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceSensor.m; sourceTree = "<group>"; };
+		D80774CA1C5E21F40059C8C9 /* GTLQuerySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuerySensor.h; sourceTree = "<group>"; };
+		D80774CB1C5E21F40059C8C9 /* GTLQuerySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuerySensor.m; sourceTree = "<group>"; };
+		D80774CD1C5E21F40059C8C9 /* GTLSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensor.h; sourceTree = "<group>"; };
+		D80774CE1C5E21F40059C8C9 /* GTLSensorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensorConstants.h; sourceTree = "<group>"; };
+		D80774CF1C5E21F40059C8C9 /* GTLSensorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSensorConstants.m; sourceTree = "<group>"; };
+		D80774D01C5E21F40059C8C9 /* GTLSensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensorData.h; sourceTree = "<group>"; };
+		D80774D11C5E21F40059C8C9 /* GTLSensorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSensorData.m; sourceTree = "<group>"; };
+		D80774D21C5E21F40059C8C9 /* GTLSensorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLSensorItem.h; sourceTree = "<group>"; };
+		D80774D31C5E21F40059C8C9 /* GTLSensorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLSensorItem.m; sourceTree = "<group>"; };
+		D80774D41C5E21F40059C8C9 /* GTLServiceSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceSensor.h; sourceTree = "<group>"; };
+		D80774D51C5E21F40059C8C9 /* GTLServiceSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceSensor.m; sourceTree = "<group>"; };
 		D87962E01C40A14500E60AF7 /* SimpleBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87962E31C40A14500E60AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D87962E51C40A14500E60AF7 /* DeviceScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScan.swift; sourceTree = "<group>"; };
@@ -306,17 +306,6 @@
 		D80774A81C5D24390059C8C9 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				D80774B81C5DFF420059C8C9 /* GTLQuerySensor.h */,
-				D80774B91C5DFF420059C8C9 /* GTLQuerySensor.m */,
-				D80774BB1C5DFF420059C8C9 /* GTLSensor.h */,
-				D80774BC1C5DFF420059C8C9 /* GTLSensorConstants.h */,
-				D80774BD1C5DFF420059C8C9 /* GTLSensorConstants.m */,
-				D80774BE1C5DFF420059C8C9 /* GTLSensorData.h */,
-				D80774BF1C5DFF420059C8C9 /* GTLSensorData.m */,
-				D80774C01C5DFF420059C8C9 /* GTLSensorItem.h */,
-				D80774C11C5DFF420059C8C9 /* GTLSensorItem.m */,
-				D80774C21C5DFF420059C8C9 /* GTLServiceSensor.h */,
-				D80774C31C5DFF420059C8C9 /* GTLServiceSensor.m */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -382,6 +371,17 @@
 			isa = PBXGroup;
 			children = (
 				D80774A81C5D24390059C8C9 /* API */,
+				D80774CA1C5E21F40059C8C9 /* GTLQuerySensor.h */,
+				D80774CB1C5E21F40059C8C9 /* GTLQuerySensor.m */,
+				D80774CD1C5E21F40059C8C9 /* GTLSensor.h */,
+				D80774CE1C5E21F40059C8C9 /* GTLSensorConstants.h */,
+				D80774CF1C5E21F40059C8C9 /* GTLSensorConstants.m */,
+				D80774D01C5E21F40059C8C9 /* GTLSensorData.h */,
+				D80774D11C5E21F40059C8C9 /* GTLSensorData.m */,
+				D80774D21C5E21F40059C8C9 /* GTLSensorItem.h */,
+				D80774D31C5E21F40059C8C9 /* GTLSensorItem.m */,
+				D80774D41C5E21F40059C8C9 /* GTLServiceSensor.h */,
+				D80774D51C5E21F40059C8C9 /* GTLServiceSensor.m */,
 				D80774411C5D234E0059C8C9 /* GTL */,
 				D87963211C4131EE00E60AF7 /* warning.png */,
 				D80774B61C5D52730059C8C9 /* unknown.png */,
@@ -533,9 +533,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D80774A11C5D234E0059C8C9 /* GTLRuntimeCommon.m in Sources */,
-				D80774C91C5DFF420059C8C9 /* GTLServiceSensor.m in Sources */,
+				D80774DB1C5E21F40059C8C9 /* GTLServiceSensor.m in Sources */,
 				D80774A71C5D234E0059C8C9 /* GTLUtilities.m in Sources */,
-				D80774C81C5DFF420059C8C9 /* GTLSensorItem.m in Sources */,
+				D80774DA1C5E21F40059C8C9 /* GTLSensorItem.m in Sources */,
 				D87963241C413F5D00E60AF7 /* DeviceDetail.swift in Sources */,
 				D807749C1C5D234E0059C8C9 /* GTLBatchResult.m in Sources */,
 				D80774991C5D234E0059C8C9 /* GTMOAuth2SignIn.m in Sources */,
@@ -554,8 +554,8 @@
 				D80774961C5D234E0059C8C9 /* GTMMIMEDocument.m in Sources */,
 				D807748F1C5D234E0059C8C9 /* GTMGatherInputStream.m in Sources */,
 				D80774A51C5D234E0059C8C9 /* GTLFramework.m in Sources */,
-				D80774C71C5DFF420059C8C9 /* GTLSensorData.m in Sources */,
-				D80774C61C5DFF420059C8C9 /* GTLSensorConstants.m in Sources */,
+				D80774D91C5E21F40059C8C9 /* GTLSensorData.m in Sources */,
+				D80774D81C5E21F40059C8C9 /* GTLSensorConstants.m in Sources */,
 				D807749F1C5D234E0059C8C9 /* GTLObject.m in Sources */,
 				D879632D1C41BDF400E60AF7 /* BarcodeScanPopover.swift in Sources */,
 				D87963201C412E5500E60AF7 /* DetailCell.swift in Sources */,
@@ -566,7 +566,7 @@
 				D807748D1C5D234E0059C8C9 /* GTMSessionFetcher.m in Sources */,
 				D80774A01C5D234E0059C8C9 /* GTLQuery.m in Sources */,
 				D80774A41C5D234E0059C8C9 /* GTLBase64.m in Sources */,
-				D80774C41C5DFF420059C8C9 /* GTLQuerySensor.m in Sources */,
+				D80774D61C5E21F40059C8C9 /* GTLQuerySensor.m in Sources */,
 				D87962E41C40A14500E60AF7 /* AppDelegate.swift in Sources */,
 				D87963281C41B5B800E60AF7 /* RKDropdownAlert.m in Sources */,
 				D807749D1C5D234E0059C8C9 /* GTLDateTime.m in Sources */,

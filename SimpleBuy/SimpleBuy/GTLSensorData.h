@@ -13,7 +13,7 @@
 // Description:
 //   This is an API
 // Classes:
-//   GTLSensorData (0 custom class methods, 4 custom properties)
+//   GTLSensorData (0 custom class methods, 5 custom properties)
 
 #if GTL_BUILT_AS_FRAMEWORK
   #import "GTL/GTLObject.h"
@@ -38,5 +38,6 @@
 // identifier property maps to 'id' in JSON (to avoid Objective C's 'id').
 @property (nonatomic, retain) NSNumber *identifier;  // longLongValue
 
+@property (nonatomic, retain) GTLSensorItem *item;
 @property (nonatomic, retain) NSArray *items;  // of GTLSensorItem
 @end

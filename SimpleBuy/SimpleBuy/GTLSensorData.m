@@ -13,7 +13,7 @@
 // Description:
 //   This is an API
 // Classes:
-//   GTLSensorData (0 custom class methods, 4 custom properties)
+//   GTLSensorData (0 custom class methods, 5 custom properties)
 
 #import "GTLSensorData.h"
 
@@ -25,7 +25,7 @@
 //
 
 @implementation GTLSensorData
-@dynamic dateTime, hubId, identifier, items;
+@dynamic dateTime, hubId, identifier, item, items;
 
 + (NSDictionary *)propertyToJSONKeyMap {
   NSDictionary *map = @{

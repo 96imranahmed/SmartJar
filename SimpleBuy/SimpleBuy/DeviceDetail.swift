@@ -136,7 +136,27 @@ class DeviceDetail: UIViewController, UIPopoverPresentationControllerDelegate, B
         } else {
             Globals.registered_devices.append(curdevice);
         }
-        super.viewWillDisappear(animated)
+        var sensorData:GTLSensorData? = GTLSensorData();
+        var sensorItem:GTLSensorItem? = GTLSensorItem();
+        if (self.ProductView.hidden == false) {
+        sensorItem!.productName = self.ProductName.text;
+        sensorItem!.price = self.ProductPrice.text;
+        sensorItem!.ean = self.ProductEAN.text;
+        }
+        sensorItem!.userDefinedName = tag.text;
+        sensorItem!.mass = curdevice.mass;
+        sensorData!.item = sensorItem!;
+        let random = Int(arc4random());
+        sensorData?.identifier = random;
+        /*
+        var sensorDataItems:[AnyObject] = (sensorData?.items())!;
+        sensorDataItems.append(sensorItem);
+        */
+        let query: GTLQuerySensor = GTLQuerySensor.queryForDataCreateWithObject(sensorData);
+        Globals.service!.executeQuery(query, completionHandler: { (ticket: GTLServiceTicket!, object: AnyObject!, error: NSError!) -> Void in
+            print("Sent!");
+        })
+        super.viewWillDisappear(animated);
     }
     /*
     // MARK: - Navigation
